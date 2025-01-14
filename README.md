@@ -7,6 +7,10 @@ Necesario la implementación de la interfaz RequestHandler ya que es una interfa
 La interfaz especifica de la clase JavaLambda debe tener un método handleRequest, que toma dos parámetros: el evento de solicitud (RequestMessage) y el contexto (Context),
 y devuelve una respuesta (ResponseMessage).
 
+Otras intefaces aws lambda para implementación:  
+RequestStreamHandler: Si necesitas manejar flujos directamente o trabajar con grandes cantidades de datos.  
+Específicos de evento: Si tu Lambda está diseñada para manejar eventos específicos de AWS como S3, DynamoDB, SNS, etc.
+
 
 **Prerrequisitos :** 
 - Alta en cuenta AWS service
