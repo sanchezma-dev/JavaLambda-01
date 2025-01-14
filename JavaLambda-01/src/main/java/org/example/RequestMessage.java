@@ -1,11 +1,8 @@
 package org.example;
 
-import java.time.LocalDateTime;
-
 public class RequestMessage {
 
     private String name;
-    private LocalDateTime dateTime;
     private String feeling;
 
     public String getName() {
@@ -16,13 +13,6 @@ public class RequestMessage {
         this.name = name;
     }
 
-    public LocalDateTime getDateTime() {
-        return dateTime;
-    }
-
-    public void setDateTime(LocalDateTime dateTime) {
-        this.dateTime = dateTime;
-    }
 
     public String getFeeling() {
         return feeling;
