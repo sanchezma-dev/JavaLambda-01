@@ -2,9 +2,9 @@
 # Example lambda
 
 Sencillo ejemplo de creación de una función lambda con java 17.
-
-
-
+Necesario la implementación de la interfaz RequestHandler ya que es una interfaz proporcionada por el SDK de AWS para Lambda. Define un contrato que AWS Lambda puede utilizar para invocar tu función.
+La interfaz especifica de la clase JavaLambda debe tener un método handleRequest, que toma dos parámetros: el evento de solicitud (RequestMessage) y el contexto (Context),
+y devuelve una respuesta (ResponseMessage).
 
 
 **Prerrequisitos :** 
